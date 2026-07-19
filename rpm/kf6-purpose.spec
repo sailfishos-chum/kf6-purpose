@@ -1,5 +1,4 @@
-%global kf6_version 6.18.0
-%global qt6_version 6.8.3
+%global kf_version 6.18.0
 
 Name:    kf6-purpose
 Summary: Framework for providing abstractions to get the developer's purposes fulfilled
@@ -11,7 +10,7 @@ URL:     https://invent.kde.org/frameworks/%{framework}
 
 Source0: %{name}-%{version}.tar.bz2
 
-BuildRequires: kf6-extra-cmake-modules >= %{kf6_version}
+BuildRequires: kf6-extra-cmake-modules >= %{kf_version}
 BuildRequires: kf6-rpm-macros
 
 #Core Qml Gui Widgets Network Test
@@ -25,12 +24,12 @@ BuildRequires: cmake(Qt6Test)
 # optional
 BuildRequires: cmake(Qt6DBus)
 
-BuildRequires: kf6-kconfig-devel >= %{kf6_version}
-BuildRequires: kf6-kcoreaddons-devel >= %{kf6_version}
-BuildRequires: kf6-ki18n-devel >= %{kf6_version}
-BuildRequires: kf6-kio-devel >= %{kf6_version}
-BuildRequires: kf6-kirigami-devel >= %{kf6_version}
-BuildRequires: kf6-knotifications-devel >= %{kf6_version}
+BuildRequires: kf6-kconfig-devel >= %{kf_version}
+BuildRequires: kf6-kcoreaddons-devel >= %{kf_version}
+BuildRequires: kf6-ki18n-devel >= %{kf_version}
+BuildRequires: kf6-kio-devel >= %{kf_version}
+BuildRequires: kf6-kirigami-devel >= %{kf_version}
+BuildRequires: kf6-knotifications-devel >= %{kf_version}
 
 %description
 Purpose offers the possibility to create integrate services and actions on
