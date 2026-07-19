@@ -3,7 +3,7 @@
 
 Name:    kf6-purpose
 Summary: Framework for providing abstractions to get the developer's purposes fulfilled
-Version: 6.18.0
+Version: 6.28.0
 Release: 1%{?dist}
 
 License: GPLv2 or GPLv3
