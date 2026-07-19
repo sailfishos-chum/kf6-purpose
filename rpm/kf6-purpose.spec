@@ -1,4 +1,4 @@
-%global kf_version 6.18.0
+%global kf_version 6.28.0
 
 Name:    kf6-purpose
 Summary: Framework for providing abstractions to get the developer's purposes fulfilled
