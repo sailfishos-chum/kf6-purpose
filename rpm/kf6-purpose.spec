@@ -1,8 +1,8 @@
-%global kf_version 6.28.0
+%global kf_version 6.24.0
 
 Name:    kf6-purpose
 Summary: Framework for providing abstractions to get the developer's purposes fulfilled
-Version: 6.28.0
+Version: 6.24.0
 Release: 1%{?dist}
 
 License: GPLv2 or GPLv3
